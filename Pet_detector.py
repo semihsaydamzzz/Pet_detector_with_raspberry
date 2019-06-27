@@ -1,22 +1,4 @@
 ######## Raspberry Pi Pet Detector Camera using TensorFlow Object Detection API #########
-#
-# Author: Evan Juras
-# Date: 10/15/18
-# Description:
-#
-# This script implements a "pet detector" that alerts the user if a pet is
-# waiting to be let inside or outside. It takes video frames from a Picamera
-# or USB webcam, passes them through a TensorFlow object detection model,
-# determines if a cat or dog has been detected in the image, checks the location
-# of the cat or dog in the frame, and texts the user's phone if a cat or dog is
-# detected in the appropriate location.
-#
-# The framework is based off the Object_detection_picamera.py script located here:
-# https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi/blob/master/Object_detection_picamera.py
-#
-# Sending a text requires setting up a Twilio account (free trials are available).
-# Here is a good tutorial for using Twilio:
-# https://www.twilio.com/docs/sms/quickstart/python
 
 
 # Import packages
